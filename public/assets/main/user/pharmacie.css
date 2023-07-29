@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url(medic2.jpg);
+}
+/*
+h1{
+    text-align: center;
+    display: flex;
+    text-align: center;
+
+
+}*/
+h2{
+    margin: 10rem;
+    padding: 10rem;
+    text-align: center;
+    width: 40%;
+    height: 40vh;
+}

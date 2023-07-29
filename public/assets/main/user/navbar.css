@@ -1,0 +1,34 @@
+h1{
+    font-size: 2.6rem;
+}
+li{
+    font-size: 2rem;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.main-head{
+    background: rgb(106, 221, 158);
+    color: #ffffff;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+#logo{
+    flex: 2 1 40rem;
+    font-family: "Pacifico" cursive;
+}

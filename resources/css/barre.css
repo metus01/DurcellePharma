@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+h2{
+    font-size: 4.8rem;
+}
+h3{
+    font-size: 3rem;
+    font-weight: normal;
+}
+h4 h5{
+    font-size: 2.8rem;
+}
+
+body{
+    font-family: 'Poppins' sans-serif;
+}
+
+
+.hero{
+    min-height: 90vh;
+    background: linear-gradient(rgb(0,0,0,0.6), transparent), url(medic.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h3{
+    padding: 4rem;
+}
+button{
+    padding: 2rem 6rem;
+    background: rgb(106, 221, 158);
+    color: #ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+}
